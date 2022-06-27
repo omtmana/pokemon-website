@@ -22,10 +22,7 @@ create an HTML element -
      div.setAttribute('class', 'pokemon-card') // setting the class of the div
      let img = document.createElement('img') // creating the img element itself
      img.src = imgUrl
-     img.setAttribute('heigh', '100px')
-     img.setAttribute('width', '100px')
      div.append(img) //append the img element 
-
      document.body.append(div)
  })
  
