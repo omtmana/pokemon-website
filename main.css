@@ -18,9 +18,19 @@ body {
 .pokemon-card:hover {
     transform:scale(1.01);
     border: 2px solid dodgerblue;
+    cursor: pointer;
 }
 
 .pokemon-card > img {
-    height: 300px;
-    width: 300px;
+    height: 420px;
+    width: 420px;
+}
+
+/* how come when you write text-align on >img .. img doesnt go to center
+but if you put it in the first it does go to center */
+
+#container {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
 }

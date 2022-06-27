@@ -4,6 +4,7 @@
 
 const pokemon = ['charmander', 'bulbasaur', 'squirtle'];
 const pokemonIDs = ['001', '004', '007'];
+const containerDiv = document.querySelector('#container');
 
 /* loop over every single ID 
 create an HTML element - 
@@ -23,6 +24,9 @@ create an HTML element -
      let img = document.createElement('img') // creating the img element itself
      img.src = imgUrl
      div.append(img) //append the img element 
-     document.body.append(div)
+     containerDiv.append(div)
  })
  
+
+ //pin them/wrap them in container
+ //
