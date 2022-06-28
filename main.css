@@ -35,5 +35,15 @@ but if you put it in the first it does go to center */
     gap: 1%;
 }
 
+#roster {
+    display: flex;
+    justify-content: center;
+}
 
+div[id^="pokemon-"] {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ccc;
+
+}
 
